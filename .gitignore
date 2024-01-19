@@ -1,0 +1,64 @@
+# Xcode
+.DS_Store
+build/
+DerivedData/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM/
+
+# User-specific files
+*.xcuserstate
+*.xcworkspace/xcuserdata/
+
+# Project-specific files
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xccheckout
+
+# Swift Package Manager
+Package.resolved
+.build/
+
+# Carthage
+Carthage/Build/
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace/
+
+# Swift Package Manager
+.build/
+
+# Xcode 8 and later
+*.moved-aside
+*.xcscmblueprint
+DerivedData/
+
+# Xcode Private settings
+xcuserdata/
+
+# Xcode workspace
+*.xcworkspace
+
+# Pods - for when using CocoaPods
+Pods/
+
+# Archive
+archives/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
+
+# AppCode
+.idea/
+
+# Jazzy documentation
+docs/
+
+# macOS
