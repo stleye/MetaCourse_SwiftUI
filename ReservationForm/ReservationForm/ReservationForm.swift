@@ -24,6 +24,9 @@ struct ReservationForm: View {
             .onSubmit {
                 print("Submit")
             }
+            Button("Press") {
+                customerName = "HELLLOOO"
+            }
         }
     }
 }
