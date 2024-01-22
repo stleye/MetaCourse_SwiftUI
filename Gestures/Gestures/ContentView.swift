@@ -65,6 +65,7 @@ struct RotationGestureView: View {
         Image("littleLemonLogo")
             .rotationEffect(amount + finalAmount)
             .gesture(
+                RotationGesture
                 RotationGesture()
                     .onChanged { value in
                         amount = value
